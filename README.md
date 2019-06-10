@@ -24,7 +24,7 @@ Use the URL - http://localhost:8083//accountsList to send the Get Request which 
 To get the List of T to transactions for an Account:
 Use the URL - http://localhost:8083/account/transactionList to send the Get Request with Key as "accountNumber" and the value as one of the available account number in the above list.
 
-
+In case there is no data, it will return null otherwise will throw exception.
 
 
 
